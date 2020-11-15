@@ -1,0 +1,83 @@
+.my_precious {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 60px;
+    border: 5px solid #ff6701;
+    box-shadow: 2px 2px 2px #cd5200, 2px 2px 2px #cd5200 inset;
+}
+
+.the_one_ring {
+    width: 150px;
+    height: 150px;
+    background: none;
+    border-radius: 150px;
+    border: 12.5px solid #fcca03;
+    box-shadow: 5px 5px 5px #caa202, 5px 5px 5px #caa202 inset;
+}
+
+.rings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ring1 {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 50px;
+    border: 4.1666666667px solid #363636;
+    box-shadow: 1.6666666667px 1.6666666667px 1.6666666667px #1d1d1d, 1.6666666667px 1.6666666667px 1.6666666667px #1d1d1d inset;
+    margin-right: -25px;
+}
+
+.ring2 {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 60px;
+    border: 5px solid #363636;
+    box-shadow: 2px 2px 2px #1d1d1d, 2px 2px 2px #1d1d1d inset;
+    margin-right: -30px;
+}
+
+.ring3 {
+    width: 70px;
+    height: 70px;
+    background: none;
+    border-radius: 70px;
+    border: 5.8333333333px solid #363636;
+    box-shadow: 2.3333333333px 2.3333333333px 2.3333333333px #1d1d1d, 2.3333333333px 2.3333333333px 2.3333333333px #1d1d1d inset;
+    margin-right: -35px;
+}
+
+.ring4 {
+    width: 80px;
+    height: 80px;
+    background: none;
+    border-radius: 80px;
+    border: 6.6666666667px solid #363636;
+    box-shadow: 2.6666666667px 2.6666666667px 2.6666666667px #1d1d1d, 2.6666666667px 2.6666666667px 2.6666666667px #1d1d1d inset;
+    margin-right: -40px;
+}
+
+.ring5 {
+    width: 90px;
+    height: 90px;
+    background: none;
+    border-radius: 90px;
+    border: 7.5px solid #363636;
+    box-shadow: 3px 3px 3px #1d1d1d, 3px 3px 3px #1d1d1d inset;
+    margin-right: -45px;
+}
+
+.ring6 {
+    width: 100px;
+    height: 100px;
+    background: none;
+    border-radius: 100px;
+    border: 8.3333333333px solid #363636;
+    box-shadow: 3.3333333333px 3.3333333333px 3.3333333333px #1d1d1d, 3.3333333333px 3.3333333333px 3.3333333333px #1d1d1d inset;
+    margin-right: -50px;
+}

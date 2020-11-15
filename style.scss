@@ -1,0 +1,30 @@
+@mixin ring($size, $color) {
+  width: $size;
+  height: $size;
+  background: none;
+  border-radius: $size;
+  border: $size / 12 solid $color;
+  box-shadow: $size / 30 $size / 30 $size / 30 darken($color, 10%),
+  $size / 30 $size / 30 $size / 30 darken($color, 10%) inset;
+}
+
+.my_precious {
+  @include ring(60px, #ff6701);
+}
+
+.the_one_ring {
+  @include ring(150px, #fcca03)
+}
+
+.rings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@for $i from 1 through 6 {
+  .ring#{$i} {
+    @include ring(40px + 10px * $i, #363636);
+    margin-right: -20px - 5 * $i;
+  }
+}
